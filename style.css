@@ -1,0 +1,241 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color:rgba(255, 255, 255, 1);
+    background-color: #ffffff;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160' viewBox='0 0 200 200'%3E%3Cpolygon fill='%23DCEFFA' points='100 0 0 100 100 100 100 200 200 100 200 0'/%3E%3C/svg%3E");
+    display: flex;
+    flex-direction: row;
+    max-width: 1200px;
+
+}
+
+p {
+    color: #595959;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 171.429% */
+}
+
+h4 {
+    color: #000;
+        font-family: Montserrat;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 20px;
+        /* 125% */
+
+}
+
+li {
+    color: #595959;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 171.429% */
+}
+
+.work-experience .subtitle {
+    color: #FB6D3A;
+}
+
+.sidebar {
+    width: 370px;
+    background-color: rgba(30, 41, 57, 1);
+    color: #ffff;
+    padding-top: 40px;
+
+}
+
+.sidebar > .content {
+    margin-top: 50px;
+    margin-left: 40px;
+}
+
+.contacts p {
+    color: rgba(255, 255, 255, 1);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    margin: 8px 0px 0px 0px;
+}
+.contacts a {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.contacts h3 {
+    margin: 0;
+}
+
+.contacts .phone-number {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
+}
+.sidebar .tech-skills {
+    margin: 47px 0px 0px 0px;
+}
+.tech-skills li {
+    color: rgba(255, 255, 255, 1);
+}
+.tech-skills ul {
+    list-style: none;
+    padding-left: 0;
+}    
+
+.tech-skills ul li::before {
+    content: "\2022";
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    color:#FB6D3A;
+    display: inline-block;
+    width: 10px
+}
+
+.sidebar .certifications {
+    margin: 47px 0px 0px 0px;
+}
+
+.certifications li {
+    color: rgba(255, 255, 255, 1);
+}
+
+.certifications ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.certifications ul li::before {
+    content: "\2022";
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #FB6D3A;
+    display: inline-block;
+    width: 10px
+
+}
+.main-content {
+    width: calc(100% - 370px);
+    padding: 102px 217px 107px 88px;
+}
+
+.summary {
+    margin-bottom: 40px;
+}
+
+.summary > h4 {
+    margin: 0;
+    color: #000;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+        /* 171.429% */
+}
+.summary > h2 {
+    margin: 19px 0px 24px 0px;
+    color: #000;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 55px;
+    /* 122.222% */
+}
+.summary > p:first-child{
+    margin: 0;
+    color: #595959;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    /* 171.429% */
+}
+
+.work-experience{
+    margin: 51px 0px 0px 0px;
+}    
+
+.work-experience > h3{
+    margin: 0;
+    color: #000;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 27px;
+    /* 122.727% */
+}
+
+.work-experience > .experience{
+    margin: 12px 0px;
+
+}
+
+.work-experience > .experience >h4{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    margin: 20px 0px 12px 0px;
+}
+
+.work-experience > .experience >p{
+    margin: 0;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #A8A8A8;
+}
+
+.work-experience > .experience ul{
+    list-style: none;
+    padding-left: 0;
+    margin: 8px 0px 0px 0px;
+    }
+
+.work-experience > .experience ul li::before {
+    content: "\2022";
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #000;
+    display: inline-block;
+    width: 10px
+}
+.work-experience > .experience li{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color:#595959
+}
+
+.education{
+    margin: 51px 0px 0px 0px;
+}
+
+.education > h3 {
+    margin: 0;
+    color: #000;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 27px;
+    /* 122.727% */
+}
+
+.education > h4{
+    color: #FB6D3A;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    /* 125% */
+}
+
+.education > h5{    
+    color: #000;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    /* 121.429% */
+}
